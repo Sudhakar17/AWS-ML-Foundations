@@ -176,6 +176,15 @@ Here are a few READMEs from some popular projects:
 
 If you need a refresher on using git for version control, check out the course linked in the extracurriculars. If you're ready, let's see how git is used in real data science scenarios!
 
+### 24. Model Versioning
+
+In the previous example, you may have noticed that each commit was documented with a score for that model. This is one simple way to help you keep track of model versions. Version control in data science can be tricky, because there are many pieces involved that can be hard to track, such as large amounts of data, model versions, seeds, hyperparameters, etc.
+
+Here are some resources for useful ways and tools for managing versions of models and large data. These are here for you to explore, but are not necessary to know now as you start your journey as a data scientist. On the job, you’ll always be learning new skills, and many of them will be specific to the processes set in your company.
+
+  * [How to Version Control Your Production Machine Learning Models](https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models)
+  * [Versoning Data Science](https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c)
+
 
 
 
