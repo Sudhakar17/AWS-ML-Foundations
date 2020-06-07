@@ -2,6 +2,12 @@
 
 Let's walk through the git commands that go along with each step in the scenario you just observed in the images below.
 
+Step 1 and Step 2: 
+![](images/scenario-03-step-1-2.png)  
+
+Step 3: 
+![](images/scenario-03-step-1-3.png)
+
 **Step 1: Andrew commits his changes to the documentation branch, switches to the development branch, and pulls down the latest changes
 from the cloud on this development branch, including the change I merged previously for the friends group feature.**
 
