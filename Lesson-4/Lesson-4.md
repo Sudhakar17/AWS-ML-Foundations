@@ -47,3 +47,60 @@ package using object-oriented programming.
 Lesson Files
 This lesson uses classroom workspaces that contain all of the files and functionality you will need.
 You can also find the files in the [data scientist nanodegree term 2 GitHub repo](https://github.com/udacity/DSND_Term2/tree/master/lessons/ObjectOrientedProgramming).
+
+### 2. Procedural vs Object-Oriented Programming
+
+#### Objects are defined by characteristics and actions
+Here is a reminder of what is a characteristic and what is an action.
+![](images/2-Objects.png)
+
+#### Characteristics and Actions in English Grammar
+Another way to think about characteristics and actions is in terms of English grammar. A characteristic would be a noun. On the other hand, an action would be a verb.
+
+Let's pick something from the real-world: a dog. A few characteristics could be the dog's weight, color, breed, and height. These are all nouns. What actions would a dog take? A dog can bark, run, bite and eat. These are all verbs.
+
+### 3. Class, object, method, attribute
+
+#### Object-Oriented Programming (OOP) Vocabulary
+
+* class - a blueprint consisting of methods and attributes
+* object - an instance of a class. It can help to think of objects as something in the real world like a yellow pencil, a small dog, a blue shirt, etc. However, as you'll see later in the lesson, objects can be more abstract.
+* attribute - a descriptor or characteristic. Examples would be color, length, size, etc. These attributes can take on specific values like blue, 3 inches, large, etc.
+* method - an action that a class or object could take
+* OOP - a commonly used abbreviation for object-oriented programming
+* encapsulation - one of the fundamental ideas behind object-oriented programming is called encapsulation: you can combine functions and data all into a single entity. In object-oriented programming, this single entity is called a class. Encapsulation allows you to hide implementation details much like how the scikit-learn package hides the implementation of machine learning algorithms.
+
+In English, you might hear an attribute described as a property, description, feature, quality, trait, or characteristic. All of these are saying the same thing.
+
+Here is a reminder of how a class, object, attributes and methods relate to each other.
+![](images/3-Class-Blueprint.png)
+
+### 4. Object-Oriented Programming Syntax
+
+In this lesson, you'll see what a class and object look like in Python. In the next section, you'll have the chance to play around with the code. And then you will write your own class.
+
+#### Function vs Method
+
+A function and a method look very similar. They both use the def keyword. They also have inputs and return outputs. The difference is that a method is inside of a class whereas a function is outside of a class.
+
+#### What is self?
+
+If you instantiate two objects, how does Python differentiate between these two objects?
+
+```python
+shirt_one = Shirt('red', 'S', 'short-sleeve', 15)
+short_two = Shirt('yellow', 'M', 'long-sleeve', 20)
+```
+That's where `self` comes into play. If you call the `change_price` method on shirt_one, how does Python know to change the price of shirt_one and not of shirt_two?
+
+`shirt_one.change_price(12)`
+
+Behind the scenes, Python is calling the `change_price` method:
+
+```python
+def change_price(self, new_price):
+   self.price = new_price
+```
+`Self` tells Python where to look in the computer's memory for the shirt_one object. And then Python changes the price of the shirt_one object. When you call the `change_price` method, `shirt_one.change_price(12)`, `self` is implicitly passed in.
+
+The word `self` is just a convention. You could actually use any other name as long as you are consistent; however, you should always use `self` rather than some other word or else you might confuse people.
