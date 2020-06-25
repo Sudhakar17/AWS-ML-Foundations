@@ -447,3 +447,7 @@ If you'd like to learn more about PyPi, here are a couple of resources:
 
 * [Overview of PyPi](https://docs.python.org/3/distutils/packageindex.html)  
 * [MIT License](https://opensource.org/licenses/MIT)
+
+### 28. Exercise: Upload to PyPi
+
+[Uploaded my testPyPi package](https://test.pypi.org/project/sse-distributions-42/)
