@@ -1,0 +1,9 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+sse_distributions_42.egg-info/PKG-INFO
+sse_distributions_42.egg-info/SOURCES.txt
+sse_distributions_42.egg-info/dependency_links.txt
+sse_distributions_42.egg-info/top_level.txt

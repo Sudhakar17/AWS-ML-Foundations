@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sse-distributions-42
+Version: 0.2.1
+Summary: A small example package
+Home-page: UNKNOWN
+Author: Sudhakar
+Author-email: sudhakar@example.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Distributions package
+        
+        Calculate the mean, standard deviation, probability density function of binomial and gaussian distributions.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
