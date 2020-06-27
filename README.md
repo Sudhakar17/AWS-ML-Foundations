@@ -31,6 +31,5 @@ Yet to complete.
 
 In this lesson you will get an introduction to Machine Learning. You will learn about Generative AI and AWS DeepComposer. You will also learn how to build a custom Generative Adversarial Network.
 
-[Notes/Exercises](Lesson-5)
+[Notes](Lesson-5)
 
-Yet to complete.
