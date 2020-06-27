@@ -25,7 +25,6 @@ Learn the basics of object-oriented programming so that you can build your own p
 
 [Notes/Exercises](Lesson-4)
 
-Yet to complete.
 
 ### Lesson-5 Machine Learning with AWS DeepComposer
 
